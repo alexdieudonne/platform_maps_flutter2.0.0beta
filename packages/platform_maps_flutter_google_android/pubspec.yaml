@@ -6,7 +6,7 @@ repository: https://github.com/albert-heijn-technology/platform_maps_flutter/tre
 issue_tracker: https://github.com/albert-heijn-technology/platform_maps_flutter/issues
 
 environment:
-  sdk: '>=3.2.4 <4.0.0'
+  sdk: '>=3.5.0 <4.0.0'
   flutter: ">=1.17.0"
 
 flutter:
@@ -20,7 +20,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  google_maps_flutter_android: ^2.7.0
+  google_maps_flutter_android: ^2.14.11
   google_maps_flutter_platform_interface: ^2.6.0
   platform_maps_flutter_platform_interface: ^1.0.0-beta
 
