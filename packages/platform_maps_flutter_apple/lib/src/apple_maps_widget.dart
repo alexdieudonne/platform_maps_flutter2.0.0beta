@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/widgets.dart';
@@ -189,6 +191,7 @@ class _PlatformMapState extends State<_PlatformMap> {
   }
 
   void _onMapCreated(apple_maps.AppleMapController controller) {
+      inspect(widget.params);
     widget.onMapCreated?.call(controller.platformMapController);
   }
 

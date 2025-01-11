@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "Flutter (test/platform_maps_flutter_google_android_test.dart)",
+            "type": "dart",
+            "request": "launch",
+            "cwd": "packages/platform_maps_flutter_osm_android",
+            "program": "test/platform_maps_flutter_google_android_test.dart"
+        }
+    ]
+}

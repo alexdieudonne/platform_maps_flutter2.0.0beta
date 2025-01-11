@@ -46,6 +46,7 @@ class PlatformMap extends StatelessWidget {
             onTap: onTap,
             padding: padding,
             polylines: polylines,
+            onMapCreated: onMapCreated,
             polygons: polygons,
             circles: circles,
             markers: markers,
